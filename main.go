@@ -1,8 +1,8 @@
 // Package now is a time toolkit for golang.
 //
-// More details README here: https://github.com/jinzhu/now
+// More details README here: https://github.com/o1egl/now
 //
-//  import "github.com/jinzhu/now"
+//  import "github.com/o1egl/now"
 //
 //  now.BeginningOfMinute() // 2013-11-18 17:51:00 Mon
 //  now.BeginningOfDay()    // 2013-11-18 00:00:00 Mon
@@ -11,8 +11,8 @@ package now
 
 import "time"
 
-// WeekStartDay set week start day, default is sunday
-var WeekStartDay = time.Sunday
+// WeekStartDay set week start day, default is monday
+var WeekStartDay = time.Monday
 
 // TimeFormats default time formats will be parsed as
 var TimeFormats = []string{"1/2/2006", "1/2/2006 15:4:5", "2006", "2006-1", "2006-1-2", "2006-1-2 15", "2006-1-2 15:4", "2006-1-2 15:4:5", "1-2", "15:4:5", "15:4", "15", "15:4:5 Jan 2, 2006 MST", "2006-01-02 15:04:05.999999999 -0700 MST", "2006-01-02T15:04:05-07:00"}

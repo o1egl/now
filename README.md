@@ -2,12 +2,10 @@
 
 Now is a time toolkit for golang
 
-[![wercker status](https://app.wercker.com/status/a350da4eae6cb28a35687ba41afb565a/s/master "wercker status")](https://app.wercker.com/project/byKey/a350da4eae6cb28a35687ba41afb565a)
-
 ## Install
 
 ```
-go get -u github.com/jinzhu/now
+go get -u github.com/o1egl/now
 ```
 
 ## Usage
@@ -15,7 +13,7 @@ go get -u github.com/jinzhu/now
 Calculating time based on current time
 
 ```go
-import "github.com/jinzhu/now"
+import "github.com/o1egl/now"
 
 time.Now() // 2013-11-18 17:51:49.123456789 Mon
 
